@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/ComponentRelease">
+	<!--  <Resource name="jdbc/urlaubsantrag"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="core"
+		password="core"
+		driverClassName="com.mysql.jdbc.Driver"
+
+		url="jdbc:mysql:/localhost:3306/cdi.urlaubsantrag" maxActive="15"
+
+		maxIdle="20" /> -->
+</Context>

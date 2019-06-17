@@ -1,0 +1,9 @@
+<beans>
+<!-- 	<alternatives>
+		<class>com.vaadin.cdi.views.UserGreetingImpl</class>
+		<class>com.vaadin.cdi.views.CustomAccessControl</class>
+	</alternatives>
+	<decorators>
+		<class>com.vaadin.cdi.views.NavigationLogDecorator</class>
+	</decorators> -->
+</beans>
