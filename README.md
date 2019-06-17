@@ -9,7 +9,7 @@ The example application „Component Release“ is pre-configured for a MySQL co
 *	[TomEE PLuME 7.1.0](http://tomee.apache.org/download-ng.html) (built on an Apache Tomcat Version 8.5.32)
 *	JRE/JDK 1.8.0_211
 
-# CMMN Case Model "Component Release"
+# CMMN Case Model "Component Release" and "Create Technical Specifications"
 
 The example application realizes the CMMN case models shown below. There are three HumanTasks in the nested case model "Create Technical Specifications": One is used to assemble specifications, i.e. upload (small <=1MB) files (restricted by the example setup). Another is used to review the uploaded specifications. The last one is basically the first one, but used for revision if necessary. A ProcessTask is used to link the uploaded specifications to the CaseFileItem of the parent case model.
 
