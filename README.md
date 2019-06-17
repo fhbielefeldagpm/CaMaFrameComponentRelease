@@ -16,9 +16,11 @@ The example application realizes the CMMN case models shown below. There are thr
 The example highlights the following:
 
 * A Stage with a nested CaseTask
-* Milestone which is triggered after completion of the sub-case, triggered by the creation of the CaseFileItem in the primary case
-* HumanTasks with repetition decorators
+* A Milestone which is triggered after completion of the sub-case, triggered by the creation transition of the CaseFileItem in the primary case
+* Two HumanTasks with repetition decorators
 * A ProcessTask to link the uploaded CaseFileItemAttachments with the CaseFileItem of the primary case
+
+The example is shown in the [paper "A Java-based Framework for Case Management Applications"](https://www.fh-bielefeld.de/multimedia/Fachbereiche/Wirtschaft+und+Gesundheit/Forschung/Arbeitsgruppe+Proze%C3%9Fmanagement/Konferenzpapiere/A_+Zensen_+J_+K%C3%BCster+_+A+Java_based+Framework+for+Case+Management+Applications+_+BPM+Forum+2019-p-129854.pdf) to be published in LNBIP [as part of BPM Forum 2019](https://bpm2019.ai.wu.ac.at/).
 
 ![casemodel](component_release.png)
 
