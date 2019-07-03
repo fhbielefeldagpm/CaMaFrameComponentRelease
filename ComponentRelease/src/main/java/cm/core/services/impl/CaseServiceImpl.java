@@ -184,7 +184,7 @@ public class CaseServiceImpl implements CaseService {
 
 	@Override
 	public List<CaseElement> getElementsInCase(CaseModel cm) {
-		TypedQuery<CaseElement> query = em.createQuery("SELECT e FROM Element e WHERE e.rootCase.id= :caseId",
+		TypedQuery<CaseElement> query = em.createQuery("SELECT e FROM CaseElement e WHERE e.rootCase.id= :caseId",
 				CaseElement.class);
 		query.setParameter("caseId", cm.getId());
 		List<CaseElement> elementsFound = query.getResultList();
